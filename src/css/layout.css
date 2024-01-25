@@ -22,11 +22,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.logo a {
-    color: rgb(255, 255, 255);
-    font-size: 0.8em;
-    margin: 0;
-    text-decoration: none;
+.logo img {
+    padding-top: 10px;
+    border-radius: 100%;
 }
 
 h1 {
