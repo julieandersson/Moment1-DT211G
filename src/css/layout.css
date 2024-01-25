@@ -58,11 +58,12 @@ main {
 section {
     width: 70%;
     margin: 0 auto;
+    padding-bottom: 30px;
 }
 
 section p {
     width: 70%;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.6em;
     text-align: center;
     margin: 0 auto;
