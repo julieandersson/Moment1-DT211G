@@ -78,6 +78,14 @@ footer {
 
 /* Design för bilder-sidan */
 
+#pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 10px;
+}
+  
 
 /* Design av meny för mobilenheter, placeras till höger om skärmen */
 nav {
