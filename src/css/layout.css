@@ -98,7 +98,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 10px;
-    gap: 10px;
+    gap: 25px;
 }
   
 
@@ -203,7 +203,7 @@ nav li:hover {
 /* Media querys */
 
 /* Större skärmas - gör menyn som inline */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 990px) {
     header {
         padding: 0 3em;
     }
@@ -236,5 +236,76 @@ nav li:hover {
     nav li {
         display: inline;
         padding: 1.2em 0;
+    }
+}
+
+/* Tablets */
+@media only screen and (min-width: 700px) and (max-width: 989px) {
+    section {
+        width: 80%;
+    }
+
+    section p {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    #pictures {
+        width: auto;
+    }
+
+    footer p {
+        font-size: 1em;
+    }
+
+    .clock-container {
+        font-size: 1.2em;
+    }
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 699px) {
+    section {
+        width: 90%;
+    }
+
+    section p {
+        width: 90%;
+        font-size: 0.9em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    #pictures {
+        width: auto;
+    }
+    footer {
+        height: 100px;
+    }
+
+    footer p {
+        font-size: 0.9em;
+    }
+
+    .clock-container {
+        font-size: 1.2em;
     }
 }
