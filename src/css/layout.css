@@ -255,10 +255,6 @@ nav li:hover {
         font-size: 1.2em;
     }
 
-    #pictures {
-        width: auto;
-    }
-
     footer p {
         font-size: 1em;
     }
@@ -292,9 +288,6 @@ nav li:hover {
         font-size: 1.3em;
     }
 
-    #pictures {
-        width: auto;
-    }
     footer {
         height: 100px;
     }
