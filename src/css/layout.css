@@ -34,18 +34,18 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 h1, h2, h3 {
     text-align: center;
 }
 
-section {
+main {
     background-color: rgb(239, 248, 255);
     padding-top: 20px;
     width: 90%;
@@ -53,6 +53,19 @@ section {
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0 0px 10px rgba(142, 142, 142, 0.71);
+}
+
+section {
+    width: 70%;
+    margin: 0 auto;
+}
+
+section p {
+    width: 70%;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    text-align: center;
+    margin: 0 auto;
 }
 
 footer {
