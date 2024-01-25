@@ -91,14 +91,16 @@ footer {
 
 /* Design för bilder-sidan */
 
-#pictures {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 10px;
-    gap: 25px;
+.picture-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
 }
-  
+
+.picture-grid img {
+    width: 100%;
+}
 
 /* Design av meny för mobilenheter, placeras till höger om skärmen */
 nav {
@@ -263,6 +265,10 @@ nav li:hover {
         font-size: 1.2em;
     }
 
+    .picture-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 /* Mobile */
@@ -298,5 +304,9 @@ nav li:hover {
 
     .clock-container {
         font-size: 1.2em;
+    }
+
+    .picture-grid {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
