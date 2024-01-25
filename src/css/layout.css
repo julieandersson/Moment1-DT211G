@@ -63,6 +63,19 @@ footer {
     padding-top: 50px;
 }
 
+/* design för aktuell klocka på hemsidan */
+.clock-container {
+    font-size: 1.6em;
+  }
+  
+  .clock {
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    
+  }
+
 /* Design av meny för mobilenheter, placeras till höger om skärmen */
 nav {
     background-color: rgb(44, 90, 117);
