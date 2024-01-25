@@ -42,10 +42,10 @@
             <h1>Arbetsprocess</h1><br><br>
             <h3>Nytt npm-projekt</h3><br>
             <p>För att lösa denna uppgift började jag med att skapa en ny katalog på min dator som jag döpte till "Moment 1". I katalogen gick jag in i kommandoterminalen och angav npm init för att helt enkelt initiera ett nytt projekt.
-                Efter detta öppnar jag upp katalogen i VsCode. Här försökte jag med kortkommandot code . men det fungerade inte för mig, så jag öppnade den direkt i VsCode istället. 
+                Efter detta öppnade jag upp katalogen i VsCode. Här försökte jag med kortkommandot code . men det fungerade inte för mig, så jag öppnade den direkt i VsCode istället. 
             </p><br><br>
 
-            <h3>Installera Parcel</h3><br>
+            <h3>Installation av Parcel</h3><br>
             <p>Efter att ha öppnat upp katalogen i VsCode fann jag där en package.json-fil, som hade skapats när jag initierade det nya projektet.
                 Jag gick in i terminalen direkt i VsCode och installerade Parcel med kommandot npm install parcel --save-dev, för att spara paketet i utvecklings-läge.<br><br>
                 När Parcel var färdiginstallerat skapades det en mapp vid namn 
@@ -56,14 +56,22 @@
 
             <h3>Skapandet av webbplatsen</h3><br>
             <p>Innan jag satte igång och koda min webbplats skapade jag en src-mapp där samtlig HTML, CSS, JavaScript och bilder placerades i vardera mapp.
-                Efter detta skapade jag ett git-repo för projektet där jag även skapade en extra branch vid namn "Development", som en utvecklingsbranch istället för att göra alla ändringar i mainbranchen som senare blir publicerings-branchen.<br>
-                För att köra igång med repot i VsCode skrev jag kommandon git pull och git checkout development i terminalen och därefter satte jag igång med skapandet av kod för webbplatsen.
+                Efter detta skapade jag ett git-repo för projektet där jag även skapade en extra branch vid namn "development", som en utvecklingsbranch istället för att göra alla ändringar i mainbranchen som senare blir publicerings-branchen.<br>
+                För att köra igång med repot i VsCode skrev jag kommandona git pull och git checkout development i terminalen och därefter satte jag igång med skapandet av kod för webbplatsen.
 
-                Under utvecklingen använde jag kommando npm run start för att starta live server där jag kan se alla ändringar jag gör. Jag gör även regelbundna commits så att alla ändringar sparas, med kommandona git add *, git commit -m "meddelande" och git push.
+                Under utvecklingen använde jag kommando npm run start för att starta live server där jag kan se alla ändringar jag gör. Jag gjorde även regelbundna commits så att alla ändringar sparades, med kommandona git add *, git commit -m "meddelande" och git push.
             </p><br><br>
 
-            <h3></h3>
+            <h3>Publicering av webbplatsen</h3><br>
+            <p>När jag var färdig med webbplatsen slog jag samman utvecklings-branchen "development" med publicerings-branchen "main" genom kommandona git checkout main och git merge development.
+                Därefter öppnade jag mitt projekt i Netlify, gick till "add new site" och deploy with github. Därefter sökte jag upp mitt repo och skapade mina sista inställningar innan jag publicerade webbplatsen via Netlify. 
+            </p><br><br>
 
+            <h3>Automatisering / Verktyg</h3><br>
+            <p>Automatiseringen som gjorts är processer som omvandling och optimering av grafikfiler, säkerställande av bakåtkompatibilitet, minimering av CSS- och HTML-filer, omvandling och minimering av JavaScript-filer samt kopiering av arbetsfiler till mappen
+                för publicering.<br>Majoriteten av detta sker automatiskt under utvecklingens gång med hjälp utav NodeJs med npm-paketet Parcel.<br><br>
+                Verktygen jag använt för denna uppgft är Visual Studio Code tillsammans med kommandoterminalen, Github och Netlify samt studiematerialet för Moment 1 i kursen DT211G, såsom teori & läsanvisningar samt föreläsningar.
+            </p>
             
         </section>
     </main>
