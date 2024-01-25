@@ -56,16 +56,17 @@ section {
 }
 
 footer {
-    height: 70px;
+    height: 80px;
     color: #fff;
     background-color: rgb(44, 90, 117);
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* design för aktuell klocka på hemsidan */
 .clock-container {
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
   
   .clock {
